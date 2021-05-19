@@ -20,6 +20,7 @@ export default {
 	padding-top: 20%;
 	padding-left: 14.725em;
 	padding-right: 14.725em;
+	margin-right: 0;
 }
 .text {
 	color: #FFFFFE;

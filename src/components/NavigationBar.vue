@@ -55,17 +55,14 @@ export default {
 	padding-left: 14.725em;
 	padding-right: 14.725em;
 }
-
 .nav-bar.nav-bar--hidden {
   transform: translate3d(0, -100%, 0);
 }
-
 .item {
 	color: #FFFFFE;
 	font-size: 21px;
 	font-weight: 500;
 }
-
 .bold {
 	font-weight: 600;
 }
