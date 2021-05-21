@@ -1,16 +1,15 @@
 <template>
 	<div class="nav-bar" :class="{ 'nav-bar--hidden': !showNavbar }">
-		<b-row class="h-100 text-left" align-v="center">
-			<b-col cols="2" class="item">
-				Projects
-			</b-col>
-			<b-col cols="2" class="item">
-				My CV
-			</b-col>
-			<b-col class="item bold text-end">
-				Hi!
-			</b-col>
-		</b-row>
+		<div class="item">
+			<a href="#">Projects</a>
+		</div>
+		<div class="item">
+			<a href="#">My-CV</a>
+		</div>
+		<div style="width: inherit"></div>
+		<div class="item hi" v-b-tooltip.hover.bottom title="Have a nice day! ;)">
+			<a href="#" class="bold">Hi!</a>
+		</div>
 	</div>
 </template>
 
@@ -45,23 +44,43 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 .nav-bar {
-	width: 100vw;
-	height: 108px;
 	position: fixed;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	left: 0;
+	transform: translateY(0);
+	height: 108px;
+	display: block;
+	width: 100%;
+	background-color: #222222;
   transform: translate3d(0, 0, 0);
   transition: transform .525s cubic-bezier(0.55, 0.085, 0, 0.99);
-	padding-left: 14.725em;
-	padding-right: 14.725em;
+	padding-left: 7.75rem !important;
+	padding-right: 7.75rem !important;
+	display: flex;
 }
 .nav-bar.nav-bar--hidden {
   transform: translate3d(0, -100%, 0);
 }
 .item {
-	color: #FFFFFE;
+	width: 33.3333%;
+	margin: auto;
+}
+.hi {
+	text-align: end;
+  width: 20%;
+}
+a {
+	color: #FFFFFE !important;
+	text-decoration: none !important;
 	font-size: 21px;
 	font-weight: 500;
+}
+a:hover {
+	text-decoration: underline !important;
 }
 .bold {
 	font-weight: 600;

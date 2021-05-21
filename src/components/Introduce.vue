@@ -17,9 +17,7 @@ export default {
 
 <style scoped>
 .intro {
-	padding-top: 20%;
-	padding-left: 14.725em;
-	padding-right: 14.725em;
+	padding-top: 33.3333%;
 	margin-right: 0;
 }
 .text {
@@ -27,7 +25,7 @@ export default {
 }
 .name {
 	font-weight: 600;
-	font-size: 2.75em;
+	font-size: 3rem;
 }
 .short-intro {
 	font-weight: 500;

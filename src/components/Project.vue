@@ -1,6 +1,14 @@
 <template>
 	<div class="project-card">
-		<img :src="require(`../assets/${image}`)" class="demo-image">
+		<div class="img-container">
+			<img :src="require(`../assets/${image}`)" class="demo-image">
+			<div class="overlay">
+				<div class="text">
+					<a href="#">Figma</a>
+					<a href="#">Visit site ;)</a>
+				</div>
+			</div>
+		</div>
 		<div class="project-name">
 			{{ name }}
 		</div>
@@ -23,13 +31,64 @@ export default {
 <style scoped>
 .project-card {
 	padding: 0;
-	margin-right: 3em;
-	margin-bottom: 3.75em;
+	margin-right: 3.125em;
+	margin-bottom: 5em;
+}
+.img-container {
+	position: relative;
+	width: 100%;
+}
+.overlay {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .15s ease;
+  background-color: rgba(255, 255, 254, 0.75);
+	border-radius: 5px;
+}
+.text {
+	color: #262626;
+	background-color: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 .demo-image {
-	width: 26em;
+	width: 100%;
 	height: auto;
+	display: block;
 	border-radius: 5px;
+}
+a {
+	text-decoration: none;
+	background-color: transparent;
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #262626 !important;
+	margin-bottom: 0.5rem;
+}
+a:hover {
+	text-decoration: underline !important;
+	color: #262626;
+}
+.project-card:hover .overlay {
+	opacity: 1;
+}
+.project-card:hover .demo-image {
+	opacity: 0.85;
 }
 .project-name {
 	font-weight: 500;
