@@ -10,7 +10,7 @@
 		<b-col>
 			"Building amazing things just by using a text-editor, fascinating, don't you think?"<br>
 			I am an Enginner from Hue, Vietnam, who has a weird hobby of finding new things to confused herself.<br><br>
-			Currently studying at Ho Chi Minh City University of Technology (HCMUT) to strengthen my ability to critical thinking and problem-solving, ways to optimize my code by using a right data structure & algorithms; as well as techniques to make various web-based applications by using real world technologies.
+			Currently studying at Ho Chi Minh City University of Technology (HCMUT) to strengthen my ability to critical thinking and problem-solving, ways to optimize my code by using a right data structure & algorithms; as well as techniques to make various web-based applications by using real world technologies.<br>
 		</b-col>
 	</b-row>
 </template>

@@ -1,7 +1,7 @@
 <template>
 	<div class="nav-bar" :class="{ 'nav-bar--hidden': !showNavbar }">
 		<div class="item">
-			<a href="#">Projects</a>
+			<a href="#projects-container">Projects</a>
 		</div>
 		<div class="item">
 			<a href="#">My-CV</a>

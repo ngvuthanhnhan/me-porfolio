@@ -9,7 +9,7 @@
 					<project 
 						image="video-request.png"
 						name="video-request page"
-						team="Working with Ong Dev & Friends team"
+						team="Working in Ong Dev & Friends team"
 						description="Design and development of a requests site for videos, Q&A and Udemy course for Ong Dev followers with a-bunch-of love."
 					/>
 				</b-col>
@@ -25,7 +25,7 @@
 					<project 
 						image="smart-food-court.png"
 						name="Smart Food Court"
-						team="Working with Me and the boys team"
+						team="Working in Me and the boys team"
 						description="A Software Engineering project for building a Smart Food Court System for our University. This system allow customer to order foods at the food courts, or pre-order through the web-app."
 					/>
 				</b-col>
@@ -55,7 +55,7 @@ export default {
 	margin-top: 37.5555%;
 }
 .title {
-	margin-bottom: 1.75em;
+	margin-bottom: 2.75em;
 	font-size: 1.5em;
 	font-weight: 500;
 }
