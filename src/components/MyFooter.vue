@@ -8,8 +8,11 @@
         ngvuthanhnhan@gmail.com
       </div>
     </div>
-    <div class="github">
+    <div class="end-text">
       <a href="https://github.com/ngvuthanhnhan" target="_blank">Github</a>
+    </div>
+    <div class="end-text">
+      <a href="https://github.com/ngvuthanhnhan" target="_blank">Take a gift before you go 🎁</a>
     </div>
   </div>
 </template>
@@ -42,7 +45,7 @@ export default {
 .email:hover {
   text-decoration: underline;
 }
-.github {
+.end-text {
   font-size: 1.15rem;
   font-weight: 500;
   margin: auto 0 0 auto;
