@@ -1,22 +1,24 @@
 <template>
 	<div class="project-card">
-		<div class="img-container">
-			<img :src="require(`../assets/${image}`)" class="demo-image">
-			<div class="overlay">
-				<div class="text">
-					<a href="#">Figma</a>
-					<a href="#">Visit site ;)</a>
+		<div class="card-content">
+			<div class="img-container">
+				<img :src="require(`../assets/${image}`)" class="demo-image">
+				<div class="overlay">
+					<div class="text">
+						<a href="#">Figma</a>
+						<a href="#">Visit site ;)</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="project-name">
-			{{ name }}
-		</div>
-		<div class="team-name">
-			{{ team }}
-		</div>
-		<div class="project-description">
-			{{ description }}
+			<div class="project-name">
+				{{ name }}
+			</div>
+			<div class="team-name">
+				{{ team }}
+			</div>
+			<div class="project-description">
+				{{ description }}
+			</div>
 		</div>
   </div>
 </template>
@@ -31,7 +33,7 @@ export default {
 <style scoped>
 .project-card {
 	padding: 0;
-	margin-right: 3.125em;
+	margin-right: 3.75em;
 	margin-bottom: 5em;
 }
 .img-container {
@@ -48,8 +50,8 @@ export default {
   width: 100%;
   opacity: 0;
   transition: .15s ease;
-  background-color: rgba(255, 255, 254, 0.75);
-	border-radius: 5px;
+  background-color: rgba(255, 255, 254, 0.85);
+	border-radius: 3px;
 }
 .text {
 	color: #262626;
@@ -70,7 +72,7 @@ export default {
 	width: 100%;
 	height: auto;
 	display: block;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 a {
 	text-decoration: none;
@@ -84,11 +86,8 @@ a:hover {
 	text-decoration: underline !important;
 	color: #262626;
 }
-.project-card:hover .overlay {
+.card-content:hover .overlay {
 	opacity: 1;
-}
-.project-card:hover .demo-image {
-	opacity: 0.85;
 }
 .project-name {
 	font-weight: 500;

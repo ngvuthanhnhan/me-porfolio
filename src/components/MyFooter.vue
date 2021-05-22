@@ -23,8 +23,7 @@ export default {
 
 <style>
 #footer {
-  display: flex;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   margin-bottom: 1.5rem;
 }
 .contact {
@@ -38,6 +37,7 @@ export default {
 .email {
   font-size: 2rem;
   font-weight: 500;
+  margin-bottom: 1.25rem;
 }
 .email:hover {
   text-decoration: underline;

@@ -58,8 +58,8 @@ export default {
 	background-color: #222222;
   transform: translate3d(0, 0, 0);
   transition: transform .525s cubic-bezier(0.55, 0.085, 0, 0.99);
-	padding-left: 7.75rem !important;
-	padding-right: 7.75rem !important;
+	padding-left: 4.75rem !important;
+	padding-right: 4.75rem !important;
 	display: flex;
 }
 .nav-bar.nav-bar--hidden {

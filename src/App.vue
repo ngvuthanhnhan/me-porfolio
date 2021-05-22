@@ -38,7 +38,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #FFFFFE;
   cursor: default;
-  padding-left: 7.75rem;
-	padding-right: 7.75rem;
+  padding-left: 4.75rem;
+	padding-right: 4.75rem;
 }
 </style>
