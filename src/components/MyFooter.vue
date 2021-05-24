@@ -12,7 +12,12 @@
       <a href="https://github.com/ngvuthanhnhan" target="_blank">Github</a>
     </div>
     <div class="end-text">
-      <a href="https://github.com/ngvuthanhnhan" target="_blank">Take a gift before you go 🎁</a>
+      <a 
+        href="https://drive.google.com/file/d/1k779Xd3FCTAoeWDPxYRdfK3oi0lOyYza/view" 
+        target="_blank"
+      >
+        Take a gift before you go 🎁
+      </a>
     </div>
   </div>
 </template>

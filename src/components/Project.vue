@@ -5,8 +5,8 @@
 				<img :src="require(`../assets/${image}`)" class="demo-image">
 				<div class="overlay">
 					<div class="text">
-						<a href="#">Figma</a>
-						<a href="#">Visit site ;)</a>
+						<a :href="figmaurl" target="_blank">Figma</a>
+						<a :href="siteurl" target="_blank">Visit site ;)</a>
 					</div>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
 <script>
 export default {
   name: 'Project',
-	props: ['image', 'name', 'team', 'description'],
+	props: ['image', 'name', 'figmaurl', 'siteurl', 'team', 'description'],
 }
 </script>
 

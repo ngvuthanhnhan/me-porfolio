@@ -3,9 +3,6 @@
 		<div class="item">
 			<a href="#projects-container">Projects</a>
 		</div>
-		<!-- <div class="item">
-			<a href="#gift">My-CV</a>
-		</div> -->
 		<div style="width: inherit"></div>
 		<div class="item hi" v-b-tooltip.hover.bottom title="Have a nice day! ;)">
 			<a href="#" class="bold">Hi!</a>
